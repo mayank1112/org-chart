@@ -1,0 +1,56 @@
+.team {
+    color: #ffffff;
+    border: 2px solid #85aeff;
+    border-radius: 10px;
+    padding: 6px 6px 8px 6px;
+    background: rgb(2,0,36);
+    background: linear-gradient(rgb(0, 123, 211) 0%, rgb(30, 84, 194) 100%);
+    font-size: .9rem;
+    text-decoration: none;
+    display: block;
+    cursor: pointer;
+}
+
+.team:hover {
+    background: linear-gradient(rgb(30, 84, 194) 0%, rgb(0, 123, 211) 100%);
+}
+
+.team-hidden {
+    opacity: .1;
+    cursor: not-allowed;
+    transition: opacity 600ms;
+}
+
+.team-title {
+    margin-bottom: 8px;
+    font-size: .85rem;
+}
+
+.team-subtitle {
+    font-size: .7rem;
+    background-color: #232323;
+    padding: 4px;
+    transition: background-color 500ms;
+    border-radius: 4px;
+}
+
+.team-location {
+    color: #888;
+    font-size: .9rem;
+}
+
+a:hover .team-subtitle {
+    background-color: #343434;
+}
+
+a {
+    color: rgb(0, 40, 115);
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.head {
+    font-weight: bold;
+}

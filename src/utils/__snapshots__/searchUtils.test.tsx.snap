@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`getHighlightedText should return highlighted text if keyword matches 1`] = `
+<span>
+  <span
+    style={
+      Object {
+        "fontStyle": "italic",
+        "fontWeight": "bold",
+        "textDecoration": "underline",
+      }
+    }
+  >
+    test wo
+  </span>
+  <span
+    style={Object {}}
+  >
+    rd
+  </span>
+</span>
+`;
+
+exports[`getHighlightedText should return text if keyword is not matched 1`] = `
+<span>
+  <span
+    style={Object {}}
+  >
+    test word
+  </span>
+</span>
+`;
